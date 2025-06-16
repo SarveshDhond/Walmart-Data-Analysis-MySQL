@@ -1,14 +1,17 @@
-# Walmart Sales Data Analysis - SQL
-Exploratory Data Analysis of Walmart sales data to understand sales trends, product performance, and customer behaviour patterns. 
+# WALMART SALES, PRODUCT AND CUSTOMER DATA ANALYSIS
 
-## DATA SOURCE
-[Kaggle.com](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)
+## OVERVIEW
+This project analyzes Walmart sales and order data to generate actionable insights addressing key business questions related to sales performance, product trends, and customer behavior for the established retail leader.
 
-## PROJECT AIM
-The project aims to gain valuable insight into the sales data of Walmart to understand the different factors that affect sales of the different branches in specific cities. 
+## TECH STACK
+- Querry language &rarr; SQL
 
-## SCHEMAS
-The following dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon, and Naypyitaw. The raw data contains 17 columns and 1000 rows.
+## AREAS OF KEY INSIGHT
+- Product Analysis
+- Sales Analysis
+- Customer Analysis
+
+## DATA STRUCTURE AND INITIAL CHECKS
 
 |  COLUMNS       |DATA TYPES|
 |----------------|----------|
@@ -34,37 +37,14 @@ The following dataset was obtained from the Kaggle Walmart Sales Forecasting Com
 | Month_name     | VARCHAR  |
 | Months_name    | VARCHAR  |
 
-## TYPES OF ANALYSIS
-- Product Analysis
-- Sales Analysis
-- Customer Analysis
-
-
-## STEPS TAKEN
-1. Data collection
-   - Getting raw data from the source
-   - Building a database and table
-   - importing raw data into that table
-
-2. Cleaning and Preparing
-   - Filtering out Null values
-   - Adding new columns
-
-3. Exploratory Data Analysis (EDA)
-   - Answering business-related questions
-
-## BUSINESS QUESTIONS AND ANSWERS
-
+## BUSINESS QUESTIONS ANSWERED
+Quesries for these questions can be found here &rarr; 
 
 ### Generic Question
-
 1. How many unique cities does the data have?
 2. In which city is each branch?
 
-
-
-### Product
-
+### Product based questions
 1. How many unique product lines does the data have?
 2. What is the most common payment method?
 3. What is the most selling product line?
@@ -77,16 +57,12 @@ The following dataset was obtained from the Kaggle Walmart Sales Forecasting Com
 10. What is the most common product line by gender?
 11. What is the average rating of each product line?
 
-
-### Sales
-
+### Sales questions
 1. Which of the customer types brings the most revenue?
 2. Which city has the largest tax percentage / VAT (Value Added Tax)?
 3. Which customer type pays the most in VAT?
 
-
-### Customer
-
+### Customer related questions
 1. How many unique customer types does the data have?
 2. How many unique payment methods does the data have?
 3. What is the most common customer type?
