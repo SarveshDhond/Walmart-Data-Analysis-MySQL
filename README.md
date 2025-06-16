@@ -38,7 +38,7 @@ This project analyzes Walmart sales and order data to generate actionable insigh
 | Months_name    | VARCHAR  |
 
 ## BUSINESS QUESTIONS ANSWERED
-Quesries for these questions can be found here &rarr; 
+Quesries for these questions can be found here &rarr; [SQL_queries](https://github.com/SarveshDhond/Walmart_Data_Analysis/blob/main/Walmart%20Sales%20Analysis.sql)
 
 ### Generic Question
 1. How many unique cities does the data have?
